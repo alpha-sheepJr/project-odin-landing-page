@@ -68,9 +68,10 @@ main {
 .hero-section {
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    justify-content: space-between;
     align-items: center;
     height: fit-content;
+    width: auto;
     padding: 0 15%;
 }
 
@@ -82,6 +83,7 @@ main {
     align-items: flex-start;
     height: fit-content;
     min-width: 460px;
+    max-width: 560px;
     margin: 10% 0;
     gap: 10px;
 }
@@ -111,13 +113,12 @@ main {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    height: 200px;
+    max-width: 355.55px;
 }
 
 .hero-section img {
-    height: 200px;
+    height: 100%;
     width: auto;
-    object-fit: contain;
 }
 
